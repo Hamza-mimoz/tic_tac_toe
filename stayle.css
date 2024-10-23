@@ -1,0 +1,235 @@
+body{ 
+    background-color: #ffd54b;
+    display: flex;
+    gap: 2%;
+}
+@font-face {
+    font-family: "new_one";
+    src: url(font/ConcertOne-Regular.ttf);
+}
+.scoor{ 
+    margin-top: 4%;
+    height: 200px;
+    background-color:rgb(254, 216, 255) ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+   
+}
+.scoor .scoorP1 , .scoor .scoorP2{
+     width: 100%;
+    margin-top: 5%;
+    background-color:rgb(190, 48, 60) ;
+    color: white;
+    font-family: "new_one";
+   
+    height: 35px;
+    border-style: double;
+    border-color:rgb(190, 48, 60) ;
+    border-radius: 15px;
+    box-shadow: 05px 5px 20px  black; 
+}
+.p1 , .p2{
+    width: 100%;
+    margin-top: 5%;
+    background-color:rgb(190, 48, 60) ;
+    color: white;
+    font-family: "new_one";
+   text-align: center;
+    height: 35px;
+    border-style: double;
+    border-color:rgb(190, 48, 60) ;
+    border-radius: 15px;
+    box-shadow: 05px 5px 20px  black;
+
+ }
+
+ .setting1{ 
+    width: 20%;
+
+ }
+
+.setting{ 
+    
+    height: 100px;
+    background-color:rgb(254, 216, 255) ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+
+}
+.setting button { 
+    background-color:rgb(190, 48, 60) ;
+    color: white;
+    font-family: "new_one";
+    height: 35px;
+    border-style: double;
+    border-color:rgb(190, 48, 60) ;
+    border-radius: 15px;
+    box-shadow: 05px 5px 20px  black;
+
+}
+.setting button:hover{ 
+    box-shadow: 05px 5px 20px  rgb(190, 48, 60);
+}
+
+form button{ 
+    background-color:rgb(190, 48, 60) ;
+    color: white;
+    font-family: "new_one";
+    width: 20%;
+    height: 35px;
+    border-style: double;
+    border-color:rgb(190, 48, 60) ;
+    border-radius: 15px;
+    box-shadow: 05px 5px 20px  black;
+}
+form button:hover{ 
+    box-shadow: 05px 5px 20px  rgb(190, 48, 60);
+}
+form{ 
+    display: flex;
+    justify-content: space-around;
+}
+dialog p { 
+    font-family: "new_one";
+    font-size: large;
+}
+dialog{ 
+    border-style: double;
+    border-radius: 15px;
+    border-color: white;
+}
+
+.div_game{ 
+    width: clamp(320px, 50%, 500px);
+    height: 600px;
+    background-color: rgb(254, 216, 255);
+    border-radius: 10%;
+    margin-left: 15%;
+}
+
+.div_users{ 
+    display: flex;
+    gap: 5%;
+    width: 100%;
+    height: 40%;
+    padding-top: 10%;
+    padding-left: 12%;
+    font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.user1{ 
+    width: 25%;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.user2{ 
+    width: 25%;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.round{ 
+    width: 25%;
+    height: 100px;
+    background-color: white;
+}
+
+.div_img{ 
+    width: 45%;
+    height: 60%;
+    border-radius: 50%;
+    background-color: white;
+}
+
+img{ 
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    position: relative;
+   left: 60%;
+   bottom: 30px;
+}
+h5{ 
+    margin: 0%;
+    position: relative;
+    bottom: 30px;
+}
+
+.div_x , .div_o{ 
+    width: 40%;
+    height: 40%;
+    font-family: 'new_one' ;
+    font-size: large;
+}
+
+.div_x h3 , .div_o h3{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    margin: 0%;
+    position: relative;
+    left: 70%;
+    bottom: 10px;
+    background-color: rgb(190, 48, 60);
+    color: white;
+    border-radius: 20px;
+}
+
+.round{ 
+    margin-top: 13px;
+    
+    width: 15%;
+    height:30% ;
+    background-color: #fcc718;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0px 0px 20px black;
+}
+
+.round h1 , .round h4 { 
+    padding: 0%;
+    margin: 0%;
+    font-family:'new_one' ;
+}
+
+.div_Bord{ 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-color: rgb(254, 216, 255);
+    width: 90%;
+    height: 60%;
+    margin-left: 5%;
+    position: relative;
+    bottom: 15%;
+    
+}
+
+.div_Bord div{ 
+    background-color:  rgb(190, 48, 60);
+    border-color: white;
+    border-style:ridge;
+    border-width: 1px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+    
+}
+
+
